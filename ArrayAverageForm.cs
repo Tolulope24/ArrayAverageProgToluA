@@ -52,8 +52,8 @@ namespace ArrayAverageProgToluA
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             // declare local variables
-            double average;
-            double sum;
+            double average = 0;
+            double sum = 0;
             int counter;
 
             // calculate the sum of all the values in the array 
